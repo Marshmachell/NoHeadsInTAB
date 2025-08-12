@@ -15,7 +15,6 @@
 	"environment": "*",
 	"entrypoints": {},
 	"mixins": [
-		"noheadsintab.mixins.json",
 		{
 			"config": "noheadsintab.client.mixins.json",
 			"environment": "client"
