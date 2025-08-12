@@ -1,0 +1,9 @@
+{
+	"required": true,
+	"package": "net.marsh.noheadsintab.mixin.client",
+	"compatibilityLevel": "JAVA_21",
+	"client": ["PlayerListHudMixin"],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

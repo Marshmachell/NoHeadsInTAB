@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "noheadsintab",
+	"version": "${version}",
+	"name": "NoHeadsInTAB",
+	"description": "Removes player heads from the TAB menu.",
+	"authors": [
+		"Marshmachell"
+	],
+	"contact": {
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/noheadsintab/icon.png",
+	"environment": "*",
+	"entrypoints": {},
+	"mixins": [
+		"noheadsintab.mixins.json",
+		{
+			"config": "noheadsintab.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.4",
+		"minecraft": ">=1.19 <1.22",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
