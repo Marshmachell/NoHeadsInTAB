@@ -10,7 +10,7 @@
 	"contact": {
 		"sources": "https://github.com/Marshmachell/NoHeadsInTAB"
 	},
-	"license": "MIT",
+	"license": "Apache-2.0",
 	"icon": "assets/noheadsintab/icon.png",
 	"environment": "*",
 	"entrypoints": {},
